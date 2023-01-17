@@ -15,7 +15,7 @@ redis-server
 
 Setup Database
 ```
-copy code from schema.sql then paste it to mysql-cli or mysql workbench
+run code from schema.sql to mysql-cli or mysql workbench
 ```
 
 Run Server
