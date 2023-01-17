@@ -25,7 +25,7 @@ npm run dev
 ```
 
 Environment Variables
-``` Create .env file in root directory ```
+#### Create .env file in root directory 
 ``
 PORT=3000
 MYSQL_HOST='127.0.0.1'
