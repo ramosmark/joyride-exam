@@ -24,6 +24,18 @@ npm install
 npm run dev
 ```
 
+Environment Variables
+``` Create .env file in root directory ```
+``
+PORT=3000
+MYSQL_HOST='127.0.0.1'
+MYSQL_USER=''
+MYSQL_PASSWORD=''
+MYSQL_DATABASE='joyride_exam'
+SECRET='joyride'
+EXPIRATION=120
+```
+
 Requests for postman testing
 ``` 
 user registration: http://localhost:3000/users/register
