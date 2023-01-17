@@ -43,6 +43,7 @@ example: {
 }
 
 for login: pass JSON data to the body with (email and password)
+
 example: {
   "email": "ramosmark@getnada.com",
   "password": "p@ssW0rD!"
@@ -51,6 +52,7 @@ example: {
 for logout: use token from login as bearer token
 
 for fetching github user info: use token from login as bearer token then pass an array of JSON data to the body
+
 example: 
 [{
   "username": "ramosmark" 
