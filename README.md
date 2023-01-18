@@ -1,4 +1,5 @@
 # Joyride Backend Exam
+Coding challenge is in root directory
  
 #### Node setup on macOS
 ```
@@ -73,6 +74,4 @@ example:
 }]
 
 ```
-
-Coding challenge is in root directory
 
