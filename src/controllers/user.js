@@ -28,7 +28,21 @@ export const register = (user) => {
         if (!name) {
             return reject({
                 'success': false,
-                'message': CONSTANTS.NAME_ERROR_MESSAGE
+                'message': CONSTANTS.NAME_BLANK_MESSAGE
+            })
+        }
+
+        if (!email) {
+            return reject({
+                'success': false,
+                'message': CONSTANTS.EMAIL_BLANK_MESSAGE
+            })
+        }
+
+        if (!password) {
+            return reject({
+                'success': false,
+                'message': CONSTANTS.PASSWORD_BLANK_MESSAGE
             })
         }
 
@@ -118,8 +132,6 @@ export const logout = async (bearerToken) => {
         DELETE FROM auth_tokens
         WHERE token = (?)
         `, [token])
-
-        console.log(result)
 
         if (result.affectedRows) {
             return resolve ({
