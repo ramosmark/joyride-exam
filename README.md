@@ -73,3 +73,6 @@ example:
 }]
 
 ```
+
+Coding challenge is in root directory
+
